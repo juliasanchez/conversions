@@ -1,0 +1,2 @@
+sh conversion_csvtoply.sh file.csv
+
