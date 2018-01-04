@@ -1,0 +1,4 @@
+awk -F " " '{printf("%g %g %g %g %g %g\n",$1,$2,$3,$4,$5,$6)}' pipe_noise_1mm.csv  > pipe_noise_1mm_normals.csv
+
+awk -F " " '{printf("%g %g %g\n",$1,$2,$3)}' pipe_noise_1mm.csv  > pipe_noise_1mm_points.csv
+
